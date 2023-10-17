@@ -7,4 +7,5 @@
     git checkout xxx_dev  切换到该分支
     git push origin xxx_dev push到远程仓库
 常用命令：
-① git branch -r 查看当前的分支
+① git branch  查看当前所在的分支
+② git branch -r  用于查看远程分支（Remote Branches）的列表
