@@ -1,4 +1,10 @@
 # vue-tea
 这是一个vue类茶叶的商城
-每次写代码前，请使用 git checkout xxx_dev建立自己的分支;请使用 git pull origin master使远程仓库和本地仓库一致
-提交代码时，请先……，然后推送到远程分支 git push origin xxx_dev,然后手动合并到主分支；
+
+1.1 克隆下来代码 git clone  https://github.com/cuwecue/vue-tea.git
+1.2 在master下创建dev分支并且提交道远程仓库中 
+    git branch xxx_dev  创建分支
+    git checkout xxx_dev  切换到该分支
+    git push origin xxx_dev push到远程仓库
+常用命令：
+① git branch -r 查看当前的分支
