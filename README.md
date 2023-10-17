@@ -16,6 +16,9 @@
           cd <项目名称>  
           cnpm(npm) install
           npm run start 启动后端(http://localhost:3000)
+三、指定分支克隆代码
+    git clone  https://github.com/cuwecue/vue-tea.git 在主分支下克隆的代码
+    git clone -b 分支名称 地址 克隆分支代码
 常用命令：
 ① git branch  查看当前所在的分支
 ② git branch -r  用于查看远程分支（Remote Branches）的列表
