@@ -19,7 +19,22 @@
 三、指定分支克隆代码
     git clone  https://github.com/cuwecue/vue-tea.git 在主分支下克隆的代码
     git clone -b 分支名称 地址 克隆分支代码
+四、是在远程的dev分支下，但是代码上传在某一分支上
+   4.0 配置本地身份
+   git config user.name 'lisa'
+   git config user.email '2157834851@qq.com'
+   4.1 dev分支看一下日志
+   git log
+   **记录hash：cnecnecneicnec
+   4.2 远程分支拉到本地仓库
+   git checkout --track origin/feature/home
 常用命令：
 ① git branch  查看当前所在的分支
 ② git branch -r  用于查看远程分支（Remote Branches）的列表
  
+
+
+
+
+
+
